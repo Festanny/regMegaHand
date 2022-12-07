@@ -4,303 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Школа "СОЮЗ" №14</title>
+    <title>МирХенд</title>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/jquery-ui/jquery-ui.min.css">
     <script src="https://kit.fontawesome.com/0396950dcd.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div class="header container">
-            <nav>
-                <ul class="topmenu menuText">
-                    <li><a href="#" class="openSub">общая информация</a>
-                        <ul class="submenu">
-                            <li><a href="#" class="openSub">Сведения об образовательной деятельности</a>
-                                <ul class="submenu">
-                                    <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                    <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                    <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                    <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                    <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#" class="openSub">Основные сведения об организации осуществляющей спортивную подготовку</a>
-                                <ul class="submenu">
-                                    <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                    <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                    <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                    <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                    <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Политика в отношении обработки персональных данных</a></li>
-                            <li><a href="#">Антидопинг</a></li>
-                            <li><a href="#">Противодействие терроризму</a></li>
-                            <li><a href="#">Антикорапционная деятельность</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">спортсмены</a>
-                        <ul class="submenu">
-                            <li><a href="#">Каратэ</a></li>
-                            <li><a href="#">Тхэквондо</a></li>
-                            <li><a href="#">Рукопашный бой</a></li>
-                            <li><a href="#">ММА</a></li>
-                            <li><a href="#">Брейкинг</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">виды спорта</a>
-                        <ul class="submenu">
-                            <li><a href="#">Каратэ</a></li>
-                            <li><a href="#">Тхэквондо</a></li>
-                            <li><a href="#">Рукопашный бой</a></li>
-                            <li><a href="#">ММА</a></li>
-                            <li><a href="#">Брейкинг</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">тренерский состав</a>
-                        <ul class="submenu">
-                            <li><a href="#">Каратэ</a></li>
-                            <li><a href="#">Тхэквондо</a></li>
-                            <li><a href="#">Рукопашный бой</a></li>
-                            <li><a href="#">ММА</a></li>
-                            <li><a href="#">Брейкинг</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <a href="index.html" class="logo">
-                    <img src="assets/img/other/logo.svg" alt="">
-                </a>
-                <div class="menuText menu-2">
-                    <div><a href="#">расписание тренировок</a></div>
-                    <div><a href="#">план мероприятий</a></div>
-                    <div><a href="#">для поступающих</a></div>
-                </div>
-                <div class="mobMenuBurger">
-                    <div class="burger" data-bs-toggle="offcanvas" data-bs-target="#mobMenu" aria-controls="offcanvasRight">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="mobMenu" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header">
-          <div class="h5 offcanvas-title" id="offcanvasRightLabel">Меню</div>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
-        </div>
-        <div class="offcanvas-body">
-            <ul class="topmenu">
-                <li><div class="nextOpen">
-                        <a>Общая информация</a>
-                    </div>
-                    <ul class="submenu">
-                        <li>
-                            <div class="nextOpen">
-                                <a>Сведения об образовательной деятельности</a>
-                            </div>
-                            <ul class="submenu">
-                                <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                <li><a href="#">Сведения об образовательной деятельности</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <div class="nextOpen">
-                                <a>Основные сведения об организации осуществляющей спортивную подготовку</a>
-                            </div>
-                            <ul class="submenu">
-                                <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                <li><a href="#">Сведения об образовательной деятельности</a></li>
-                                <li><a href="#">Сведения об образовательной деятельности</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Политика в отношении обработки персональных данных</a></li>
-                        <li><a href="#">Антидопинг</a></li>
-                        <li><a href="#">Противодействие терроризму</a></li>
-                        <li><a href="#">Антикорапционная деятельность</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <div class="nextOpen">
-                        <a>Спортсмены</a>
-                    </div>
-                    <ul class="submenu">
-                        <li><a href="#">Каратэ</a></li>
-                        <li><a href="#">Тхэквондо</a></li>
-                        <li><a href="#">Рукопашный бой</a></li>
-                        <li><a href="#">ММА</a></li>
-                        <li><a href="#">Брейкинг</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <div class="nextOpen">
-                        <a>Виды спорта</a>
-                    </div>
-                    <ul class="submenu">
-                        <li><a href="#">Каратэ</a></li>
-                        <li><a href="#">Тхэквондо</a></li>
-                        <li><a href="#">Рукопашный бой</a></li>
-                        <li><a href="#">ММА</a></li>
-                        <li><a href="#">Брейкинг</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <div class="nextOpen">
-                        <a>Тренерский состав</a>
-                    </div>
-                    <ul class="submenu">
-                        <li><a href="#">Каратэ</a></li>
-                        <li><a href="#">Тхэквондо</a></li>
-                        <li><a href="#">Рукопашный бой</a></li>
-                        <li><a href="#">ММА</a></li>
-                        <li><a href="#">Брейкинг</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Расписание тренировок</a></li>
-                <li><a href="#">План мероприятий</a></li>
-                <li><a href="#">Для поступающих</a></li>
-            </ul>
-        </div>
-    </div>
 
     <main>
-        <section class="banner">
-            <div class="bannerBlock container">
-                <div class="textSchool sfpro">Муниципальное бюджетное учреждение дополнительного образования спортивная школа олимпийского резерва N°8 "Союз" городского округа Тольятти</div>
-                <div class="title yanone">Школа боевых искусств «СОЮЗ»</div>
-                <div class="desc phenomena">Мы учим побеждать</div>
-                <a href="javascript://" onclick="letsee_toggle_panel()" class="btn">Версия для слабовидящих</a>
-            </div>
-        </section>
-        <section class="news">
-            <div class="newsBlock container">
-                <div class="blockMore">
-                    <div class="info-block">
-                        <div class="item textBlock">
-                            <div class="nameBlock">
-                                <div class="title phenomena">Что написать?</div>
-                                <div class="desc">Courtney Henry</div>
-                            </div>
-                            <div class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</div>
-                            <div class="btnBlock">
-                                <a href="#" class="btn btnTrp">Скачать</a>
-                                <a href="#" class="btn">Просмотреть</a>
-                            </div>
-                        </div>
-                        <div class="item imgNews">
-                            <img src="assets/img/other/people1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="info-block">
-                        <div class="item textBlock">
-                            <div class="nameBlock">
-                                <div class="title phenomena">Что написать?</div>
-                                <div class="desc">Courtney Henry</div>
-                            </div>
-                            <div class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</div>
-                            <div class="btnBlock">
-                                <a href="#" class="btn btnTrp">Скачать</a>
-                                <a href="#" class="btn">Просмотреть</a>
-                            </div>
-                        </div>
-                        <div class="item imgNews">
-                            <img src="assets/img/other/people2.png" alt="">
-                        </div>
-                    </div>
+        <section class="registrationSection">
+            <div class="registrationBlock container ">
+                <div class="textBlockTitle">
+                    <div class="h2 title__page">Регистрация</div>
                 </div>
-            </div>
-        </section>
-        <section class="gallery">
-            <div class="galleryBlock container">
                 <div class="info-block">
-                    <div class="item"><img src="assets/img/gallery/c872d6f53c5bb689a9f9cd16dcbfd6b2.png" alt=""></div>
-                    <div class="item"><img src="assets/img/gallery/aa1e49067b4461f939a1efae5bab12da.png" alt=""></div>
-                    <div class="item"><img src="assets/img/gallery/539a1d7f3862212ee4131789a259abf9.png" alt=""></div>
-                    <div class="item"><img src="assets/img/gallery/86f6fc88b665a21e5330edafdc4d0875.png" alt=""></div>
-                    <div class="item"><img src="assets/img/gallery/75ff89b76720d99202f08bc408759b54.png" alt=""></div>
+                    <form action="">
+                        <div class="inputRel">
+                            <span class="bebas">Номер телефона</span>
+                            <input type="phone" id="phone" placeholder="Введите телефон" name="phone">
+                        </div>
+                        <div class="inputRel">
+                            <span class="bebas">Фамилия</span>
+                            <input type="text" placeholder="Введите фамилию" name="last_name">
+                        </div>
+                        <div class="inputRel">
+                            <span class="bebas">Имя</span>
+                            <input type="text" placeholder="Введите имя" name="first_name">
+                        </div>
+                        <div class="btnBlock bebas">
+                            <button class="btn" disabled>Зарегистрироваться</button>
+                        </div>
+                    </form>
+                    <div class="apps">
+                        <div class="textBlockTitle">
+                            <div class="h2 title__page">Скачивайте наше приложение!</div>
+                        </div>
+                        <div class="info-block-apps">
+                            <a href="#"><img src="assets/img/download/appstore.png" alt=""></a>
+                            <a href="#"><img src="assets/img/download/gplay.png" alt=""></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="infoText">
-            <div class="infoTextBlock container">
-                <div class="info-block">
-                    <div class="item">
-                        <div class="title">О полном и сокращенном (при наличии) наименовании образовательной организации</div>
-                        <div class="desc">Полное наименование образовательной организации: муниципальное бюджетное учреждение дополнительного образования спортивная школа олимпийского резерва №14 «Жигули» городского округа Тольятти Сокращенное наименование образовательной организации: МБУДО СШОР № 14 «Жигули»</div>
-                    </div>
-                    <div class="item">
-                        <div class="title">О дате создания образовательной организации.</div>
-                        <div class="desc">Создано в соответствии с Гражданским кодексом Российской Федерации, Федеральным законом «О некоммерческих организациях» и приказом комитета по образованию Администрации г. Тольятти от 21.02.1994 г № 29 «Об учреждении муниципального учреждения — детско- юношеского клуба спортивного ориентирования «Абрис» путем его учреждения.</div>
-                    </div>
-                    <div class="item">
-                        <div class="title">Об учредителе (учредителях) образовательной организации</div>
-                        <div class="desc">Учредитель образовательной организации: муниципальное образование — городской округ Тольятти в лице администрации городского округа Тольятти место нахождения учредителя и почтовый адрес: 445011, Российская Федерация, Самарская область, город Тольятти, площадь Свободы, 4. Факс: 8(8482)54- 36-66 Режим работы: пн-пт 08:00- 17:00, обед 12:00-13:00. Эл. почта: 1акалги Сайт: ННр/ропацаи Образовательнаяорганизация находится в ведомственном подчинении управления физической культуры и спорта администрации</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="tableSection">
-            <div class="tableBlock container">
-                <table class="table">
-                    <tbody>
-                      <tr>
-                        <td>lorem</td>
-                        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto saepe molestiae est? Ullam debitis sunt cumque repellendus ducimus dignissimos, nemo voluptatum rerum inventore quam dicta optio. Autem facilis fuga necessitatibus?</td>
-                      </tr>
-                      <tr>
-                        <td>lorem</td>
-                        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto saepe molestiae est? Ullam debitis sunt cumque repellendus ducimus dignissimos, nemo voluptatum rerum inventore quam dicta optio. Autem facilis fuga necessitatibus?</td>
-                      </tr>
-                      <tr>
-                        <td>lorem</td>
-                        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto saepe molestiae est? Ullam debitis sunt cumque repellendus ducimus dignissimos, nemo voluptatum rerum inventore quam dicta optio. Autem facilis fuga necessitatibus?</td>
-                      </tr>
-                    </tbody>
-                  </table>
             </div>
         </section>
     </main>
 
-    <footer>
-        <div class="footer container">
-            <nav>
-                <ul class="topmenu menuText">
-                    <li><a href="#">общая информация</a></li>
-                    <li><a href="#">спортсмены</a></li>
-                    <li><a href="#">виды спорта</a></li>
-                    <li><a href="#">тренерский состав</a></li>
-                </ul>
-                <a href="#" class="logo">
-                    <img src="assets/img/other/logo2.svg" alt="">
-                </a>
-                <div class="menuText menu-2">
-                    <div><a href="#">расписание тренировок</a></div>
-                    <div><a href="#">план мероприятий</a></div>
-                    <div><a href="#">для поступающих</a></div>
-                </div>
-                <div class="mobMenuBurger">
-                    <div class="burger" data-bs-toggle="offcanvas" data-bs-target="#mobMenu" aria-controls="offcanvasRight">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </footer>
-
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="assets/letsee/letsee.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
