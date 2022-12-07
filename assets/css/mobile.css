@@ -1,0 +1,424 @@
+@media screen and (min-width: 1921px) {
+    :root {
+        --fz120: 6.25vw;
+        --fz80: 4.16vw;
+        --fz70: 3.64vw;
+        --fz30: 1.56vw;
+        --fz19: 0.99vw;
+        --fz16: 0.83vw;
+        --fz14: 0.73vw;
+    }
+    section:not(.banner) {
+        padding: 5.21vw 0;
+    }
+    input,
+    textarea {
+        border: 0.05vw solid transparent
+    }
+    .container {
+        width: 66.63vw;
+    }
+    .btn {
+        padding: 0.52vw 1.67vw;
+        border-radius: 0.52vw;
+        border: 0.05vw solid var(--blue);
+    }
+    .btnTrp {
+        border: 0.05vw solid var(--text);
+    }
+    header.fixed_nav .header {
+        padding: 0.52vw 0;
+    }
+    header.fixed_nav .header .logo img {
+        height: 3.12vw;
+    }
+    header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10000;
+        color: var(--white)
+    }
+    header .header {
+        padding: 1.35vw 0;
+    }
+    header .submenu {
+        padding-top: 1.25vw;
+        left: -0.78vw;
+        max-width: 12.49vw;
+        -webkit-box-shadow: 0px 0.78vw 0.42vw -0.78vw rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 0px 0.78vw 0.42vw -0.78vw rgba(34, 60, 80, 0.2);
+        box-shadow: 0px 0.78vw 0.42vw -0.78vw rgba(34, 60, 80, 0.2);
+    }
+    header .submenu li {position: relative;}
+    header .submenu a {
+        padding: 0.52vw 1.04vw;
+    }
+    header .submenu .submenu {
+        left: calc(100% - 0.05vw);
+        left: -webkit-calc(100% - 0.05vw);
+        padding-left: 0.52vw;
+    }
+    header nav li > .submenu li:first-of-type a {
+        padding-top: 1.20vw;
+    }
+    header nav li > .submenu li:last-of-type a {
+        padding-bottom: 1.20vw;
+    }
+    header .header nav,
+    footer .footer nav {
+        grid-template-columns: 1fr 5.93vw 1fr;
+        gap: 2.34vw;
+    }
+    header .header nav .menuText,
+    footer .footer nav .menuText {
+        gap: 1.30vw;
+    }
+    .banner {
+        min-height: 26.03vw;
+    }
+    .banner .bannerBlock {
+        padding: 5.21vw 0;
+        margin-top: 5.21vw;
+    }
+    .banner .bannerBlock .textSchool {
+        margin-bottom: 0.78vw;
+    }
+    .banner .bannerBlock .title {
+        letter-spacing: -0.16vw;
+    }
+    .banner .bannerBlock .desc {
+        margin-top: -1.04vw;
+        margin-bottom: 2.34vw;
+    }
+    .news .newsBlock .info-block {
+        gap: 4.42vw;
+    }
+    .news .newsBlock .info-block .item.textBlock {
+        gap: 2.34vw;
+    }
+    .news .newsBlock .info-block .item.textBlock .btnBlock {
+        gap: 1.56vw;
+        margin-top: 2.08vw;
+    }
+    .news .newsBlock .blockMore {
+        gap: 5.21vw;
+    }
+    .gallery .galleryBlock .info-block {
+        grid-gap: 0.78vw;
+        grid-auto-rows: 14.89vw;
+    }
+    .gallery .galleryBlock .info-block .item {
+        border-radius: 0.78vw;
+    }
+    .infoText .infoTextBlock .info-block {
+        gap: 5.21vw;
+    }
+    .infoText .infoTextBlock .info-block .item {
+        gap: 1.56vw;
+    }
+    .tableSection .tableBlock table tbody tr {
+        gap: 0.52vw;
+    }
+    .tableSection .tableBlock table tbody td {
+        border: 0.05vw solid var(--text);
+        padding: 2.92vw;
+    }
+    .tableSection .tableBlock table tbody tr:first-of-type td {
+        border-radius: 0.78vw 0.78vw 0 0;
+    }
+    .tableSection .tableBlock table tbody tr:last-of-type td {
+        border-radius: 0 0 0.78vw 0.78vw;
+    }
+    .tableSection .tableBlock table tbody {
+        gap: 0.52vw;
+    }
+    footer {
+        padding-top: 5.21vw;
+    }
+    footer .footer {
+        padding: 5.21vw 0;
+    }
+
+    header .header nav .burger {
+        gap: 0.26vw;
+    }
+    header .header nav .burger > div {
+        width: 1.56vw;
+        height: 0.16vw;
+    }
+    .offcanvas#mobMenu ul.topmenu {
+        gap: 1.04vw;
+    }
+    .offcanvas#mobMenu ul.topmenu > li > .submenu {
+        border-right: 0.16vw solid rgba(0, 0, 0, 0.2);
+    }
+    .offcanvas#mobMenu ul.topmenu > li > .submenu > li > .submenu {
+        padding-right: 1.04vw;
+    }
+    .offcanvas#mobMenu ul.topmenu .submenu.open {
+        gap: 0.52vw;
+        margin: 1.04vw 0;
+        padding: 0.26vw 0.52vw 0 0;
+    }
+    .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {
+        --bs-offcanvas-width: 20.82vw;
+        --bs-offcanvas-border-width: 0.05vw;
+      }
+}
+@media screen and (max-width: 1360px) {
+    :root {
+        --fz120: 90px;
+        --fz80: 65px;
+        --fz70: 55px;
+        --fz30: 27px;
+    }
+    .container {
+        width: 1000px;
+    }
+    header.fixed_nav .header .logo img {
+        height: 50px;
+        object-position: left;
+    }
+    nav .mobMenuBurger {
+        display: flex;
+    }
+    header .header nav .menuText,
+    footer .footer nav .menuText {
+        display: none;
+    }
+    header .header nav, footer .footer nav {
+        grid-template-columns: 90px auto;
+    }
+    .banner .bannerBlock .textSchool {
+        width: 70%;
+    }
+    .banner .bannerBlock .desc {
+        margin-top: -15px;
+    }
+}
+@media screen and (max-width: 1070px) {
+    :root {
+        --fz120: 75px;
+        --fz80: 55px;
+        --fz70: 45px;
+        --fz30: 24px;
+        --fz19: 17px;
+    }
+    .container {
+        width: 850px;
+    }
+    .banner .bannerBlock .textSchool {
+        width: 80%;
+    }
+    .banner .bannerBlock .desc {
+        margin-bottom: 30px;
+    }
+    .news .newsBlock .info-block .item.textBlock .btnBlock {
+        margin-top: 0;
+    }
+    .news .newsBlock .info-block .item.textBlock .btnBlock {
+        gap: 15px;
+    }
+    section:not(.banner),
+    footer .footer {
+        padding: 70px 0;
+    }
+    footer {
+        padding-top: 50px;
+    }
+    section.news {
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+    .news .newsBlock .info-block .item.imgNews::before, .news .newsBlock .info-block .item.imgNews::after {
+        height: 80%;
+    }
+    .btn {
+        padding: 8px 25px;
+    }
+    .gallery .galleryBlock .info-block {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .gallery .galleryBlock .info-block .item:nth-of-type(3n) {
+        grid-row: inherit;
+    }
+    .gallery .galleryBlock .info-block .item:nth-of-type(4n) {
+        grid-column: 2 / span 2;
+    }
+    .gallery .galleryBlock .info-block .item:nth-of-type(5n) {
+        grid-column: span 3;
+    }
+    .tableSection .tableBlock table tbody td {
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    :root {
+        --fz120: 65px;
+        --fz80: 45px;
+        --fz70: 35px;
+        --fz30: 20px;
+        --fz19: 16px;
+    }
+    .banner .bannerBlock .desc {
+        margin-top: -5px;
+    }
+    .news .newsBlock .info-block {
+        gap: 40px;
+    }
+    .news .newsBlock .info-block .item.imgNews::before {
+        transform: translate(-50%, -50%);
+    }
+    .news .newsBlock .info-block .item.textBlock {
+        gap: 30px;
+    }
+    .gallery .galleryBlock .info-block {
+        grid-auto-rows: 250px;
+    }
+}
+@media screen and (max-width: 670px) {
+    :root {
+        --fz120: 55px;
+        --fz80: 40px;
+        --fz70: 30px;
+        --fz30: 18px;
+    }
+    .news .newsBlock .info-block {
+        grid-template-columns: 1fr;
+    }
+    .news .newsBlock .info-block .item.imgNews {
+        height: 400px;
+    }
+    .news .newsBlock .info-block .item.textBlock {
+        order: 2;
+    }
+    .news .newsBlock .info-block .item.imgNews {
+        order: 1;
+    }
+    .news .newsBlock .info-block {
+        gap: 0;
+    }
+}
+@media screen and (max-width: 560px) {
+    .banner .bannerBlock .textSchool {
+        width: 100%;
+    }
+    .banner .bannerBlock .desc {
+        margin-top: 0px;
+    }
+    .news .newsBlock .info-block .item.imgNews::before, .news .newsBlock .info-block .item.imgNews::after {
+        height: 100%;
+    }
+    .news .newsBlock .info-block .item.imgNews {
+        height: 240px;
+    }
+    .news .newsBlock .info-block {
+        gap: 20px;
+    }
+    .gallery .galleryBlock .info-block {
+        grid-auto-rows: 200px;
+    }
+    .gallery .galleryBlock .info-block {
+        gap: 10px;
+    }
+    .infoText .infoTextBlock .info-block .item {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .infoText .infoTextBlock .info-block {
+        gap: 50px;
+    }
+    .infoText .infoTextBlock .info-block .item:nth-child(2n) .title {
+        order: 1;
+    }
+    .infoText .infoTextBlock .info-block .item:nth-child(2n) .desc {
+        order: 2;
+        text-align: right;
+    }
+    .tableSection .tableBlock table tbody tr,
+    .tableSection .tableBlock table tbody {
+        gap: 5px;
+    }
+    .tableSection .tableBlock table tbody tr:first-of-type td:first-of-type {
+        border-radius: 10px 0 0 0;
+    }
+    .tableSection .tableBlock table tbody tr:first-of-type td:last-of-type {
+        border-radius: 0 10px 0 0;
+    }
+    .tableSection .tableBlock table tbody tr:last-of-type td:first-of-type {
+        border-radius: 0 0 0 10px;
+    }
+    .tableSection .tableBlock table tbody tr:last-of-type td:last-of-type {
+        border-radius: 0 0 10px 0;
+    }
+    .tableSection .tableBlock table tbody td {
+        padding: 15px;
+    }
+    .tableSection .tableBlock table {
+        font-size: 14px;
+    }
+    section:not(.banner), footer .footer {
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width: 430px) {
+    :root {
+        --fz120: 50px;
+    }
+    header .header nav, footer .footer nav {
+        grid-template-columns: 75px auto;
+    }
+    .banner {
+        height: auto;
+    }
+    .banner .bannerBlock {
+        margin-top: 50px;
+    }
+    .gallery .galleryBlock .info-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gallery .galleryBlock .info-block .item:nth-of-type(1),
+    .gallery .galleryBlock .info-block .item:nth-of-type(3n),
+    .gallery .galleryBlock .info-block .item:nth-of-type(4n),
+    .gallery .galleryBlock .info-block .item:nth-of-type(5n) {
+        grid-column: auto;
+    }
+    .tableSection .tableBlock table tbody tr td {
+        width: 200px;
+    }
+    .tableSection .tableBlock {
+        overflow-y: auto;
+    }
+}
+@media screen and (max-width: 360px) {
+    :root {
+        --fz120: 45px;
+        --fz80: 33px;
+        --fz70: 27px;
+        --fz30: 17px;
+        --fz19: 15px;
+        --fz16: 14px;
+        --fz14: 13px;
+    }
+    .news .newsBlock .info-block .item.imgNews {
+        height: 200px;
+    }
+    .banner .bannerBlock {
+        padding: 0;
+    }
+    .gallery .galleryBlock .info-block {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .gallery .galleryBlock .info-block {
+        grid-auto-rows: 160px;
+    }
+    .tableSection .tableBlock table {
+        font-size: 12px;
+    }
+}
